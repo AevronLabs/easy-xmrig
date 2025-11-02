@@ -1,0 +1,1 @@
+### To run the script to automatically retrieve the Advanced XMRig folders and files, run the following command: `curl "https://raw.githubusercontent.com/AevronLabs/easy-xmrig/refs/heads/main/advanced-xmrig.sh" | /bin/bash`
