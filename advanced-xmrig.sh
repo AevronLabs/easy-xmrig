@@ -9,7 +9,7 @@ else
 fi
 mkdir xmrig/build && cd xmrig/scripts
 ./build_deps.sh && cd ../build
-cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)
+cmake .. -DXMRIG_DEPS=scripts/deps 
+make -j$(nproc) -k
 cd "$startdir"
 echo "Done! XMRig is in ./xmrig, XMRig executable is in ./xmrig/build/xmrig"
